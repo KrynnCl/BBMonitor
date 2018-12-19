@@ -9,7 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBMonitor.iOS", "BBMonitor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBMonitor.UWP", "BBMonitor\BBMonitor.UWP\BBMonitor.UWP.csproj", "{BE301715-B1C1-40F2-BED8-EC754D60B1B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBMonitor", "BBMonitor\BBMonitor\BBMonitor.csproj", "{568B1EBC-B183-4643-8079-A1481376C849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BBMonitor", "BBMonitor\BBMonitor\BBMonitor.csproj", "{568B1EBC-B183-4643-8079-A1481376C849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirement", "Requirement", "{DD9EA899-55BA-4CE5-8A1F-70C48FC3B2F8}"
+	ProjectSection(SolutionItems) = preProject
+		Requerimientos.txt = Requerimientos.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

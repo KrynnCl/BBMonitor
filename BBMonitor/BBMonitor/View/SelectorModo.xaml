@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BBMonitor.View.SelectorModo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Actualmente el modo esta en estado:" />
+            <Label Text="{Binding TipoModo}"/>
+            <Button Text="Modo Bebe" Clicked="Button_Baby_Clicked" Command="{Binding ModoBabyCommand}"/>
+            <Button Text="Modo Parents" Clicked="Button_Parents_Clicked" Command="{Binding ModoParentCommand}"/>
+            <Button Text="Borrar seleccion"  Command="{Binding BorrarSeleccionCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

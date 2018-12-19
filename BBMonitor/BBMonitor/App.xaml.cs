@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using BBMonitor.View;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace BBMonitor
@@ -11,7 +12,7 @@ namespace BBMonitor
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new  MenuView();
         }
 
         protected override void OnStart()

@@ -1,0 +1,27 @@
+Requerimientos para la aplicacion de monitoreo de BEBES.
+
+
+
+1.- Crear Menu
+1.1.- Iconos de Ninos: https://www.flaticon.com/search?word=baby%20settings
+
+2.- Comunicacion de audio en una via entre 2 dispositivos
+2.1.-Comunicacion en respuesta desde dispositivo padre e Hijo.
+2.2.- Configuracion automatica del Audio y microfono.
+
+3.- Comunicacion de Video en una via Entre 2 Dispositivos.
+3.1.- Iniciar Luz de Dispositivo para mejorar vista nocturna.
+
+4.- Comunicacion por texto
+
+5.- Dejar pantalla activa
+
+6.- Pantalla de configuracion.
+
+7.- Comunicacion via Direct Connection
+
+8.- Mas Rango (Sobre Internet)
+
+9.- Conectar varios telefonos (Share group and joingroup)
+
+10. Ver automaticamente los servidores dentro de una red.

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BBMonitor.View.AppInfo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Vista deInformacion de aplicacion!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ancho:" /><Label Text="{Binding Width}" />
+            <Label Text="Alto:" /><Label Text="{Binding Height}" />
+            <Label Text="Rotacion:" /><Label Text="{Binding Rotation}" />
+            <Button Text="Ver Informacion"  Pressed="Button_Pressed" />
+            <Button Text="Linterna"  Pressed="Button_Pressed_1Async" />
+            <Label  Text="{Binding Problema}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
